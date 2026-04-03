@@ -1,0 +1,177 @@
+@media only screen and (min-width:200px) and (max-width:576px){
+    header{
+        flex-direction: column;
+        align-items:stretch;
+        gap: 10px;
+        padding: 10px;
+
+    }
+    .left-header{
+        justify-content: center;
+    }
+    .logo{
+        padding: 14px;
+    }
+    .header-address{
+        padding:10px;  
+    }
+    .search-header button{
+        padding: 8px;
+    }
+    .header-right{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .banner{
+        display: none;
+    }
+    .order-banner{
+        flex-direction: column;
+    }
+    .order-banner-item{
+    margin: 1.5%;
+    }
+    .category{
+        justify-content: center;
+    }
+    .category-item{
+        flex-basis:33.33%;
+    }
+    .product-section{
+        padding: 0px 10px;
+    }
+    .product-row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product-item{
+        flex-basis: 49%;
+        margin-bottom: 10px;
+    }
+    .product-heading-row a{
+        display: none;
+    }
+    .footer-mid{
+        padding: 0px 10px;
+    }
+    .footer-mid-row1{
+        flex-direction: column;
+    }
+    .useful-links{
+        justify-content: space-between;
+    }
+    .footer-mid-row1-right-header{
+        margin-top: 20px;
+    }
+    .useful-links2 ul{
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+    .useful-links2 ul li{
+        flex-basis:49%;
+    }
+     .useful-links2 ul li a{
+        margin-bottom: 13px;
+    }
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .download-store{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .download-store h5{
+        width: 100%;
+        text-align: center;
+    }
+    .social-links{
+        flex-wrap:wrap;
+        justify-content: center;
+        gap:10px;
+    }
+    .social-links a{
+        width:25%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    header{
+        align-items:stretch;
+        gap: 10px;
+        padding: 10px;
+
+    }
+    .left-header{
+        font-size: 12px;
+    }
+    .logo{
+        padding: 0px;
+    }
+    .header-address{
+        padding:10px; 
+    }
+    .search-header button i{
+    font-size:20px;
+}
+    .search-header button{
+        padding-left: 10px;
+    }
+    .header-right{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        margin-right: 0;
+        justify-content: space-around;
+    }
+    .category-item{
+        flex-basis:25%;
+    }
+    .product-section{
+        padding: 0px 10px;
+    }
+    .product-row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product-item{
+        flex-basis: 32%;
+        margin-bottom: 10px;
+    }
+    .product-heading-row a{
+        display: none;
+    }
+     .footer-mid{
+        padding: 0px 10px;
+    }
+    .footer-mid-row1-right-header{
+        margin-top: 20px;
+    }
+    .footer-mid-row1{
+        flex-direction: column;
+    }
+    .useful-links2 ul{
+        gap: 2%;
+        flex-wrap: wrap;
+    }
+    .useful-links2 ul li{
+        flex-basis:49%;
+    }
+    .useful-links2 ul li a{
+        margin-bottom: 13px;
+    }
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .download-store{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .download-store h5{
+        width: 100%;
+        text-align: center;
+    }
+}

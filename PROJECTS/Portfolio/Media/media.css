@@ -1,0 +1,59 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  width: 85%;
+}
+
+@media (max-width: 1200px) {
+  section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header ul {
+    display: none;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .bars-details {
+    right: 10px;
+    width: 90%;
+  }
+
+  .name h1 {
+    font-size: 32px;
+  }
+
+  .name h4 {
+    font-size: 22px;
+  }
+
+  .skills-card {
+    width: 100%;
+  }
+
+  .feedback-track {
+    gap: 20px;
+  }
+
+  .feedback-card {
+    height: auto;
+  }
+
+  .project-container p {
+    line-height: 25px;
+  }
+
+}
